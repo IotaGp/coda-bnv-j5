@@ -4,6 +4,7 @@ int add(int n1, int n2)
 {
     int res = n1 + n2;
     printf("%d + %d = %d\nSomme actuelle = %d\n",n1, n2, res, res);
+    return res;
 }
 int nombre()
 {
